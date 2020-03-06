@@ -3457,7 +3457,6 @@
         },
         "forwardingEnabled": {
           "type": "boolean",
-          "nullable": true
         },
         "forwardingActionMappings": {
           "type": "array",
@@ -3495,7 +3494,6 @@
             },
             "updatesEnabled": {
               "type": "boolean",
-              "nullable": true
             },
             "bidirectional-callback-type": {
               "type": "string",
@@ -3560,11 +3558,9 @@
             },
             "addAlertDetails": {
               "type": "boolean",
-              "nullable": true
             },
             "addAlertDescription": {
               "type": "boolean",
-              "nullable": true
             },
             "base-webhook-callback-type": {
               "type": "string",
@@ -4852,15 +4848,12 @@
             },
             "sendDescription": {
               "type": "boolean",
-              "nullable": true
             },
             "sendRoutedTeams": {
               "type": "boolean",
-              "nullable": true
             },
             "sendTags": {
               "type": "boolean",
-              "nullable": true
             }
           }
         }
@@ -5313,7 +5306,6 @@
         },
         "isGlobal": {
           "type": "boolean",
-          "nullable": true
         },
         "_readOnly": {
           "type": "array",
@@ -5334,12 +5326,10 @@
         "ignoreTeamsFromPayload": {
           "description": "If enabled, the integration will ignore teams sent in request payloads. Defaults to false",
           "type": "boolean",
-          "nullable": true
         },
         "ignoreRecipientsFromPayload": {
           "description": "If enabled, the integration will ignore recipients sent in request payloads. Defaults to false",
           "type": "boolean",
-          "nullable": true
         },
         "recipients": {
           "description": "Optional user, schedule, teams or escalation names to calculate which users will receive the notifications of the alert. Recipients which are exceeding the limit are ignored",
@@ -5353,15 +5343,12 @@
         },
         "ignoreRespondersFromPayload": {
           "type": "boolean",
-          "nullable": true
         },
         "ignoreTagsFromPayload": {
           "type": "boolean",
-          "nullable": true
         },
         "ignoreExtraPropertiesFromPayload": {
           "type": "boolean",
-          "nullable": true
         },
         "responders": {
           "type": "array",
@@ -5444,7 +5431,6 @@
             },
             "allowDeleteAccess": {
               "type": "boolean",
-              "nullable": true
             }
           }
         }
@@ -8576,7 +8562,6 @@
             },
             "ignoreRespondersFromPayload": {
               "type": "boolean",
-              "nullable": true
             }
           }
         }
@@ -10859,7 +10844,6 @@
         },
         "enabled": {
           "type": "boolean",
-          "nullable": true,
           "description": "Enable/disable state of schedule"
         },
         "ownerTeam": {
@@ -10892,7 +10876,6 @@
         },
         "enabled": {
           "type": "boolean",
-          "nullable": true,
           "description": "Enable/disable state of schedule"
         },
         "ownerTeam": {
@@ -11079,7 +11062,6 @@
         "order": {
           "type": "number",
           "format": "float",
-          "nullable": true
         },
         "periods": {
           "type": "array",
@@ -11788,15 +11770,12 @@
       "properties": {
         "waitInterval": {
           "type": "integer",
-          "nullable": true
         },
         "count": {
           "type": "integer",
-          "nullable": true
         },
         "resetRecipientStates": {
           "type": "boolean",
-          "nullable": true
         }
       }
     },
